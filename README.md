@@ -1,4 +1,4 @@
-# Debian Server Setup for Odoo and BOFL Project
+# Debian Server Setup for Odoo Project
 
 ## Update All Packages on Debian Server
 To ensure your Debian server has the latest updates, use the following commands:
@@ -16,7 +16,7 @@ sudo usermod -aG sudo odoo
 
 ## Python Setup
 
-### Install Python 3.11 for BOFL Project
+### Install Python 3.11
 ```bash
 sudo apt update
 sudo apt install python3.11
